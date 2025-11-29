@@ -1,0 +1,48 @@
+# Виртуальные окружения
+venv/
+.venv/
+env/
+.conda/
+
+# Кэш питона
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter служебные файлы
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+token.txt
+*.csv
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Катбуст, тензорборды и прочие артефакты обучения
+catboost_info/
+lightgbm_info/
+runs/
+events.out.tfevents*
+
+# Данные и модели (будут жить в Drive, а не в git)
+data/
+datasets/
+models/
+checkpoints/
+weights/
+artifacts/
+
+# IDE-шный мусор
+.vscode/
+.idea/
+*.iml
+*.swp
+*~
+.DS_Store
+
+# Файлы конфигов с секретами (если появятся)
+.env
+.env.*
+
